@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Contato - Barbearia Alura</title>
-		<link rel="stylesheet" href="reset.css">
-		<link rel="stylesheet" href="style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Courgette&family=Inter:wght@400;700&family=Medula+One&display=swap" rel="stylesheet">
-	</head>
-	<body class="body-contato">
-		<header>
-			<div class="caixa">
-			<h1><img src="./imagens/logo.png" alt="Logo da barbearia Alura"></h1>
+
+<head>
+	<meta charset="utf-8">
+	<title>Contato - Barbearia Alura</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="global.css">
+	<link rel="stylesheet" href="contatos.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Courgette&family=Inter:wght@400;700&family=Medula+One&display=swap"
+		rel="stylesheet">
+</head>
+
+<body class="body-contato">
+	<header>
+		<div class="caixa">
+			<h1><img src="./imagens/logo/logo-branco.png" alt="Logo da barbearia Alura"></h1>
 
 			<nav>
 				<a href="index.html" h2 id="menu-produtos"> Home</h2></a>
@@ -20,29 +25,32 @@
 				<a href="contato.html" h2 id="menu-produtos"> Contato</h2></a>
 			</nav>
 		</div>
-		</header>
+	</header>
 
-		<main>
-			<form>
-				<label for="nomesobrenome">Nome e sobrenome</label>
-				<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome e sobrenome">
+	<main>
+		<form>
+			<label for="nomesobrenome">Nome e sobrenome</label>
+			<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome e sobrenome">
 
-				<label for="email">E-mail</label>
-				<input type="email" id="email" class="input-padrao" required placeholder="email@email.com">
+			<label for="email">E-mail</label>
+			<input type="email" id="email" class="input-padrao" required placeholder="email@email.com">
 
-				<label for="telefone">Telefone</label>
-				<input type="tel" id="telefone" class="input-padrao" required placeholder="(DDD) 0000000-0000">
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(DDD) 0000000-0000">
 
-				<label for="mensagem">Mensagem</label>
-				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+			<label for="mensagem">Mensagem</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required
+				placeholder="Digite sua mensagem"></textarea>
 
 			<fieldset>
 				<legend>Como prefere o nosso contato?</legend>
 				<label for="radio-email"><input type="radio" name="contato" value="Email" id="radio-email">Email</label>
 
-				<label for="radio-telefone"><input type="radio" name="contato" value="Telefone" id="radio-telefone">Telefone</label>
+				<label for="radio-telefone"><input type="radio" name="contato" value="Telefone"
+						id="radio-telefone">Telefone</label>
 
-				<label for="radio-whatsapp"><input type="radio" name="contato" value="WhatsApp" id="radio-whatsapp" checked>WhatsApp</label>
+				<label for="radio-whatsapp"><input type="radio" name="contato" value="WhatsApp" id="radio-whatsapp"
+						checked>WhatsApp</label>
 			</fieldset>
 
 			<fieldset>
@@ -54,39 +62,41 @@
 				</select>
 			</fieldset>
 
-				<label class="check-box"><input type="checkbox" checked>Gostaria de receber nossas novidades e promoções por e-mail?</label>
+			<label class="check-box"><input type="checkbox" checked>Gostaria de receber nossas novidades e promoções por
+				e-mail?</label>
 
-				<input type="submit" value="Enviar formulário" class="enviar">
-			</form>
+			<input type="submit" value="Enviar formulário" class="enviar">
+		</form>
 
-			<table>
-				<p>Confira nossos horários de funcionamento!</p>
-				<thead>
-					<tr>
-						<th>Dia</th>
-						<th>Horário</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Segunda-feira</td>
-						<td>8h às 20h</td>
-					</tr>
-					<tr>
-						<td>Quarta-feira</td>
-						<td>8h às 20</td>
-					</tr>
-					<tr>
-						<td>Sexta-feira</td>
-						<td>8h às 20</td>
-					</tr>
-				</tbody>
-			</table>
-		</main>
+		<table>
+			<p>Confira nossos horários de funcionamento!</p>
+			<thead>
+				<tr>
+					<th>Dia</th>
+					<th>Horário</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Segunda-feira</td>
+					<td>8h às 20h</td>
+				</tr>
+				<tr>
+					<td>Quarta-feira</td>
+					<td>8h às 20</td>
+				</tr>
+				<tr>
+					<td>Sexta-feira</td>
+					<td>8h às 20</td>
+				</tr>
+			</tbody>
+		</table>
+	</main>
 
-		<footer>
-			<img src="./imagens/logo-branco.png" alt="Logo da barbearia Alura">
-			<p class="copyright">&copy;Copyright Barbearia Alura - 2022</p>
-		</footer>
-	</body>
+	<footer>
+		<img src="./imagens/logo/logo-branco.png" alt="Logo da barbearia Alura">
+		<p class="copyright">&copy;Copyright Barbearia Alura - 2022</p>
+	</footer>
+</body>
+
 </html>

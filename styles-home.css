@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    margin: 1em 0 0 0;
+}
+
+.titulo-principal {
+    color: rgb(136, 136, 136);
+    font-family: 'Medula One', cursive;
+    font-weight: 500;
+    font-size: 120px;
+}
+
+.principal {
+    color: white;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: rgb(206, 206, 206);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.descricao {
+    text-align: center;
+    color: rgb(165, 165, 165);
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    margin: 1em;
+}
+
+.beneficios {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.itens {
+    color: rgb(165, 165, 165);
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagem-beneficios {
+    width: 50%;
+}

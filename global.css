@@ -1,0 +1,55 @@
+ .caixa {
+	position: relative;
+	width: 940px;
+	margin: auto;
+}
+
+nav {
+	position: absolute;
+    top: 180px;
+    right: 0;
+}
+
+nav a {
+	font-family: 'Medula One', cursive;
+	font-size: 48px;
+	font-weight: 400;
+	color: rgb(189, 189, 189);
+	text-decoration: none;
+	margin: 1em 1em 0 0;
+}
+
+nav a:hover {
+	color: rgb(122, 121, 121);
+	text-decoration: underline;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin: 20px;
+}
+
+footer {
+	text-align: center;
+	background: url("./imagens/footer/bg.jpg");
+	padding: 20px;
+}
+
+footer img {
+	max-width: 100px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
